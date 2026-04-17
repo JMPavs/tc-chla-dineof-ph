@@ -1,0 +1,16 @@
+# Data files
+*.nc
+*.csv
+*.shp
+*.shx
+*.dbf
+*.prj
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.env
+
+# Logs and outputs
+*.log
+Output_*/
