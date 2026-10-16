@@ -1,4 +1,18 @@
-# Data files
+# ==================== Python ====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# ==================== Environment / Secrets ====================
+.env
+*.env
+
+# ==================== Logs ====================
+*.log
+
+# ==================== Data files (too large for Git) ====================
 *.nc
 *.csv
 *.shp
@@ -6,11 +20,13 @@
 *.dbf
 *.prj
 
-# Python artifacts
-__pycache__/
-*.py[cod]
-.env
+# ==================== Jupyter ====================
+.ipynb_checkpoints/
 
-# Logs and outputs
-*.log
-Output_*/
+# ==================== OS ====================
+.DS_Store
+Thumbs.db
+
+# ==================== IDE ====================
+.vscode/
+.idea/
